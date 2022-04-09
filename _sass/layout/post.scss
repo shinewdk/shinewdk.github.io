@@ -74,9 +74,12 @@ img.preview-img {
     color: var(--link-color);
 
     &:hover {
-      background: #2a408e;
-      color: #fff;
-      border-color: #2a408e;
+    //   background: #2a408e;
+      background: #18191B;
+    //   color: #fff;
+      color: #ddaa29;
+    //   border-color: #2a408e;
+      border-color: #ddaa29;
     }
 
     &.disabled {

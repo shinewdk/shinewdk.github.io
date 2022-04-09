@@ -447,8 +447,10 @@ img[data-src] {
 }
 
 .post-content {
-  font-size: 1.08rem;
-  line-height: 1.8;
+//   font-size: 1.08rem;
+  font-size: 0.94rem;
+//   line-height: 1.8;
+  line-height: 1.6;
   margin-top: 2rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -495,8 +497,12 @@ img[data-src] {
   > ol,
   > ul {
     padding-left: 2rem;
+    // 추가
+    font-size: 0.9rem;
 
     li {
+        //추가
+        margin-bottom: 0.8rem;
       ol,
       ul { /* sub list */
         padding-left: 2rem;
@@ -541,7 +547,7 @@ img[data-src] {
 
     border-bottom: none;
     text-decoration: none;
-    color: #d2603a;
+    color: #ddaa29;
   }
 }
 
@@ -555,6 +561,13 @@ img[data-src] {
   &:focus {
     box-shadow: none;
   }
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    // color: #fff;
+    color: inherit;
+    background-color: inherit;
+    border-color: #ddaa29;
 }
 
 /* --- Effects classes --- */
@@ -663,6 +676,7 @@ $sidebar-display: "sidebar-display";
       @include no-text-decoration;
 
       color: var(--sidebar-active-color) !important;
+    //   color: #ddaa29 !important;
     }
   }
 
@@ -706,7 +720,8 @@ $sidebar-display: "sidebar-display";
 
       font-weight: 900;
       font-size: 1.5rem;
-      letter-spacing: 0.5px;
+    //   letter-spacing: 0.5px;
+      letter-spacing: 0.02rem;
       color: rgba(134, 133, 133, 99%);
     }
   }
@@ -1053,7 +1068,10 @@ $sidebar-display: "sidebar-display";
 
 #core-wrapper {
   min-height: calc(100vh - #{$topbar-height} - #{$footer-height} - #{$bottom-min-height}) !important;
-
+    // 추가
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 4rem;
+    }
   .categories,
   #tags,
   #archives {
@@ -1083,6 +1101,7 @@ $sidebar-display: "sidebar-display";
 
 #main-wrapper {
   background-color: var(--main-wrapper-bg);
+//   background-color: #F2F2F3;
   position: relative;
   min-height: 100vh;
   padding-bottom: $footer-height;

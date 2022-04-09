@@ -6,7 +6,8 @@
   /* Framework color */
   --body-bg: var(--main-wrapper-bg);
   --mask-bg: rgb(68, 69, 70);
-  --main-wrapper-bg: rgb(27, 27, 30);
+//   --main-wrapper-bg: rgb(27, 27, 30);
+  --main-wrapper-bg: #242428;
   --main-border-color: rgb(44, 45, 45);
 
   /* Common color */
@@ -29,8 +30,10 @@
 
   /* Sidebar */
   --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
-  --sidebar-muted-color: #6d6c6b;
-  --sidebar-active-color: rgb(255 255 255 / 80%);
+//   --sidebar-muted-color: #6d6c6b;
+  --sidebar-muted-color: #faebd7;
+//   --sidebar-active-color: rgb(255 255 255 / 80%);
+  --sidebar-active-color: #ddaa29;
   --nav-cursor-color: rgb(183, 182, 182);
   --sidebar-btn-bg: rgb(117 116 116 / 20%);
 
