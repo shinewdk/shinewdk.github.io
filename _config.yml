@@ -95,15 +95,15 @@ comments:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo:         shinewdk/shinewdk.github.io   # <gh-username>/<repo>
-    issue_term:   url                           # < url | pathname | title | ...>
+    repo:         # shinewdk/shinewdk.github.io   # <gh-username>/<repo>
+    issue_term:   # url                           # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:             # <gh-username>/<repo>
-    repo_id:
+    repo:         shinewdk/shinewdk.github.io    # <gh-username>/<repo>
+    repo_id:      R_kgDOHFFZWw
     category:
     category_id:
-    mapping:          # optional, default to 'pathname'
+    mapping:      url    # optional, default to 'pathname'
     input_position:   # optional, default to 'bottom'
     lang:             # optional, default to the value of `site.lang`
 
