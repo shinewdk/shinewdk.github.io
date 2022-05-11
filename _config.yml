@@ -99,13 +99,14 @@ comments:
     issue_term:   # url                           # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:         shinewdk/shinewdk.github.io    # <gh-username>/<repo>
-    repo_id:      R_kgDOHFFZWw
-    category:
-    category_id:
-    mapping:      url    # optional, default to 'pathname'
-    input_position:   # optional, default to 'bottom'
+    repo:         'shinewdk/shinewdk.github.io'    # <gh-username>/<repo>
+    repo_id:      'R_kgDOHFFZWw'
+    category:     'CATEGORY'
+    category_id:  'CATEGORY_ID'
+    mapping:      'pathname'    # optional, default to 'pathname'
+    input_position: 'bottom'   # optional, default to 'bottom'
     lang:             # optional, default to the value of `site.lang`
+    crossorigin:  'anonymous'
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
