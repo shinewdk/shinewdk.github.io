@@ -102,7 +102,7 @@ comments:
     repo:         'shinewdk/shinewdk.github.io'    # <gh-username>/<repo>
     repo_id:      'R_kgDOHFFZWw'
     category:     'comments'
-    category_id:  'giscus'
+    category_id:   
     mapping:          # optional, default to 'pathname'
     input_position:   # optional, default to 'bottom'
     lang:             # optional, default to the value of `site.lang`
