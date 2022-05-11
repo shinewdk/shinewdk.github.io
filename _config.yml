@@ -101,11 +101,11 @@ comments:
   giscus:
     repo:         'shinewdk/shinewdk.github.io'    # <gh-username>/<repo>
     repo_id:      'R_kgDOHFFZWw'
-    category:     'comments'
-    category_id:   
+    # category:     'General'
+    category_id:  'DIC_kwDOHFFZW84CO00p'
     mapping:          # optional, default to 'pathname'
     input_position:   # optional, default to 'bottom'
-    lang:             # optional, default to the value of `site.lang`
+    lang:         'ko'    # optional, default to the value of `site.lang`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
